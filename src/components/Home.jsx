@@ -6,17 +6,12 @@ import {Link} from 'react-scroll'
 
 const Home = () => {
   return (
-    <div name="home" className="h-screen w-full bg-gradient-to-b from-black via-black to bg-gray-800">
+    <div name="home" className="h-screen w-full bg-gradient-to-b from-black via-black to bg-gray-900">
         <div  className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
             <div className="flex flex-col justify-center h-full">
-                <h2 className="text-4xl text-white sm:text-7xl font-bold">I'm a Full Stack Developer</h2>
-                <p className="text-gray-500 py-4 max-w-md">
-                I'm seeking opportunities to learn and grow.
-                Passionate about software development and driven by a
-                curiosity for budling next Generation software solution. I
-                am eager learn and want to contribute my technical
-                expertise and problem-solving skills to any organization
-                that values innovation.
+                <h2 className="text-4xl text-white sm:text-7xl font-bold">Hi, I'm <span className=' text-sky-400'> Raj </span>Kumar Rana</h2>
+                <p className="text-gray-400 py-4 max-w-md text-3xl">
+                Passionate Software Developer
                 </p>
                 <div>
                     
@@ -29,8 +24,8 @@ const Home = () => {
                 
                 </div>
             </div>
-            <div>
-                <img src={HeroImg} alt="my profile" className="rounded-full mx-auto w-2/3 md:w-full shadow-lg shadow-blue-900"/>
+            <div className=' py-6'>
+                <img src={HeroImg} alt="my profile" className="rounded-full mx-auto w-2/3 md:w-full shadow-lg shadow-blue-900 py-4 px-4"/>
             </div>
         </div>
     </div>

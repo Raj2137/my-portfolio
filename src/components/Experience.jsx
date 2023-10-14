@@ -5,9 +5,9 @@ import javascript from '../assets/javascript.png'
 import reactImg from '../assets/react.png'
 import tailwind from '../assets/tailwind.png'
 import node from '../assets/node.png'
-import nextjs from '../assets/nextjs.png'
+import python from '../assets/pythonimg.png'
 import git from '../assets/github.png'
-import graphql from '../assets/graphql.png'
+import java from '../assets/javaimg.png'
 
 
 
@@ -49,40 +49,40 @@ const Experience = () => {
             style: 'shadow-sky-400'
         },
         {
-            id: 6,
-            src: nextjs,
-            title: "Nextjs",
-            style: 'shadow-white'
+          id: 6,
+          src: node,
+          title: "Node",
+          style: 'shadow-green-500'
         },
         {
-            id: 7,
-            src: graphql,
-            title: "Graphql",
-            style: 'shadow-pink-400'
+          id: 7,
+          src: git,
+          title: "Github",
+          style: 'shadow-gray-400'
         },
         {
             id: 8,
-            src: git,
-            title: "Github",
-            style: 'shadow-gray-400'
+            src: python,
+            title: "Python",
+            style: 'shadow-yellow-400'
         },
         {
             id: 9,
-            src: node,
-            title: "Node",
-            style: 'shadow-green-500'
+            src: java,
+            title: "Java",
+            style: 'shadow-blue-500'
         }
     ]
   return (
-    <div name="experience" className="bg-gradient-to-b from-gray-800 to-black text-white h-screen w-full">
+    <div name="experience" className="bg-gradient-to-b from-gray-900 to-black text-white h-screen w-full">
 
         <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full  h-full">
             <div>
-                <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">Experience</p>
-                <p className='py-6'>These are the Technologies I've worked with</p>
+                <p className="text-4xl font-bold  border-gray-500 p-2 inline">Experienced <sapn className="text-sky-500">With</sapn></p>
+                {/* <p className='py-6'>Technologies I've worked with</p> */}
             </div>
 
-            <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+            <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 mt-3">
                 {
                     experiences.map(({id, src, title, style})=>(
                         <div key= "id" className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>

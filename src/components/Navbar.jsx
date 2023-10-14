@@ -28,7 +28,8 @@ function Navbar() {
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
           <div>
-            <h1 className='text-4xl font-signature ml-2'>Rana</h1>
+      
+            <h1 className='text-4xl font-signature ml-2 text-sky-500'>Rana</h1>
           </div>
           <ul className="hidden md:flex">
             {links.map(({id, link})=>(
