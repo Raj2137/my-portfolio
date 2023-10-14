@@ -60,16 +60,16 @@ const Portfolio = () => {
                     {id === 3 ? (
                       <div className='flex justify-center'>
                               <button className=" px-6 py-6 hover:scale-125 duration-100 w-full">
-                                <a href={code} target="_blank">Code</a>
+                                <a href={code} rel="noopener noreferrer" target="_blank">Code</a>
                               </button>
                               </div>
                             ) : (
                               <div className='flex '>
                                 <button className="w-1/2 px-6 py-3 m-4 hover:scale-125 duration-100">
-                                  <a href={link} target="_blank">Demo</a>
+                                  <a href={link} rel="noopener noreferrer" target="_blank">Demo</a>
                                 </button>
                                 <button className="w-1/2 px-6 py-3 m-4 hover:scale-125 duration-100">
-                                  <a href={code} target="_blank">Code</a>
+                                  <a href={code} rel="noopener noreferrer" target="_blank">Code</a>
                                 </button>
                               </div>
                             )}
