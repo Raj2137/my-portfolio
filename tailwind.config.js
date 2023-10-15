@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        'xs': '375px', // Define your own "extra small" breakpoint
+        'xs': '320px', // Define your own "extra small" breakpoint
       },
     },
     fontFamily: {
