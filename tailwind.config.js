@@ -4,11 +4,14 @@ module.exports = {
         "./src/**/*.{js,jsx,ts,tsx}", //this one added 
       ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'xs': '375px', // Define your own "extra small" breakpoint
+      },
+    },
     fontFamily: {
         signature: ["Great Vibes"], //this one added from great vibes rule
     }
   },
   plugins: [],
 }
-
